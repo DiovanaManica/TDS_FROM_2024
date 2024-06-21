@@ -1,0 +1,97 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(214, 91, 194);
+}
+
+#Cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+#DMSystem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#RecuperarSenha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+input{
+    color: rgb(255, 255, 255);
+}
+
+.card{
+    background-color: rgba(19, 19, 19, 0.3);
+    padding: 100px;
+    border-radius: 50px;
+    width: 280px;
+}
+
+.card-header{
+    padding-bottom: 50px;
+    color: rgb(0, 0, 0);
+}
+
+.card-content label{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+
+}
+
+.card-content input{
+    margin-top: 10px;
+    padding: 0 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #e1e1e1;
+    outline: none;
+}
+
+.card-content-area{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+
+.card-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-footer .submit{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(218, 28, 107);
+    border: none;
+    color: black;
+    text-transform: uppercase;
+    margin: 10px 0px;
+    cursor:pointer;
+}
+
+.card-footer a{
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    opacity: 0.8;
+    color: #030303;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
