@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript</title>
+</head>
+<body>
+<p>Javascript</p>
+<script>
+    const diovana= {
+        Nome:"Diovana",
+        RA: "123456",
+        Idade: "27"
+    }
+    const marcos= {
+        Nome:"Marcos",
+        RA: "78910",
+        Idade: "29"
+    }
+    const darlana= {
+        Nome:"Darlana",
+        RA: "111213",
+        Idade: "14"
+    }
+
+    //const alunos = [diovana, marcos, darlana];
+    //console.log(alunos);
+
+    var alunos = [];
+    alunos.push(diovana);
+    alunos.push(marcos);
+    alunos.push(darlana); 
+
+    //Exemplo do FOR
+    //for(let index = 0; index < alunos.length; index++){
+      //  console.log(alunos[index]);
+    //}
+  
+        //Exemplo do FOR moderno arry.forEach()
+        //alunos.forEach(function(item,index){
+           // console.log(index, item);
+       // });
+
+
+       //Exemplo Arrow Function ()=>{}
+       alunos.forEach((item, index) => {
+        console.log(index, item);
+       });
+
+
+    </script>
+</body>
+</html>

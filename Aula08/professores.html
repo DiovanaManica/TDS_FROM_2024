@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript</title>
+</head>
+<body>
+<p>Javascript</p>
+<script>
+    const diovana= {
+        Nome:"Diovana",
+        RA: "123456",
+        CPF: "047.112.849-07",
+        Email: "dhiovana_pires@hotmail.com"
+    }
+    const marcos= {
+        Nome:"Marcos",
+        RA: "78910",
+        CPF: "068.164.889-97",
+        Email: "marcos.daldin@gmail.com"
+    }
+    const darlana= {
+        Nome:"Darlana",
+        RA: "111213",
+        CPF: "068.164.988-79",
+        Email: "darlana.grando@gmail.com"
+    }
+
+    //const alunos = [diovana, marcos, darlana];
+    //console.log(alunos);
+
+
+    var professores = [];
+    professores.push(diovana);
+    professores.push(marcos);
+    professores.push(darlana); 
+
+    professores.forEach((item, index) => {
+        console.log(index, item);
+       });
+
+
+    </script>
+</body>
+</html>
