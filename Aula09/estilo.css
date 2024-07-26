@@ -19,11 +19,11 @@ html {
 	margin:4px auto;
 }
 #calculadora{
-	width: 234px;
-	height: 230px;
+	width: 237px;
+	height: 240px;
 	padding:2px;
 	background-color: #0f0203; /*cor da borda*/
-	border: none;
+	border-radius:20px;
 }
 .input-valor{
 	margin:8px auto;
