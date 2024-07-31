@@ -19,7 +19,7 @@
     justify-content: center;
     height: 100px;
     width: 100px;
-    background-color: rgb(190, 7, 145);
+    background-color: blue;
     margin: 5px;
     cursor: pointer;
 }
@@ -31,5 +31,5 @@
 
 #resultado{
     text-transform: uppercase;
-    color: rgb(0, 0, 0);
+    color: green;
 }
