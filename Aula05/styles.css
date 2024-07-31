@@ -10,8 +10,15 @@ body{
     justify-content: center;
     height: 100vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 
 }
+
+.card-content-area input{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
 
 input{
     color: rgb(255, 255, 255);

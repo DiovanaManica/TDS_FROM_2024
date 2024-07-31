@@ -19,12 +19,17 @@
     justify-content: center;
     height: 100px;
     width: 100px;
-    background-color: rgb(179, 7, 121);
+    background-color: rgb(190, 7, 145);
     margin: 5px;
     cursor: pointer;
 }
 
 .campo{
-    color: #000000;
+    color: #FFFFFF;
     font-size: 50px;
+}
+
+#resultado{
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
 }
