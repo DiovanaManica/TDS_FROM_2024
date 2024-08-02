@@ -2,28 +2,33 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     height: 100%;
     padding: 0px;
-    margin: 0px;
-    background-color: #ccbfbf;
+    margin: 10px;
+    background: linear-gradient(0, #20196e, #000000);
+    /*background-image: linear-gradient(to right, rgb(8, 8, 12), rgb(110, 106, 106));*/
+    /*background-color: #9e9e9e;*/
+    /*background-image: url("imag.jpg");*/
     background-size: cover;
 }
+
 
 header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #ccbfbf;
-    color: #161212;
+    /*background: #9e9e9e;*/
+    color: #ffffff;
 }
 
 section {
     padding: 2rem;
-    background: #ccbfbf; 
+    /*background: #9e9e9e; */
     border-radius: 8px; 
+    color: #ffffff;
 }
 
 
 h2 {   /*linhas de separaçao */
-    border-bottom: 2px solid #85135f;
+    border-bottom: 3px solid #1badd1;
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
 }
@@ -31,9 +36,9 @@ h2 {   /*linhas de separaçao */
 nav {
     font-style: italic;
     font-size: larger;
-    background: #7e7b7b;
-    color: #ebe8ea;
+   /* background: #776565;*/
     padding: 0.5rem 0;
+    color: #ffffff;
 }
 
 nav ul {
@@ -43,13 +48,15 @@ nav ul {
     margin: 0;
 }
 
-nav ul li {
+nav ul li { /*contato/experiencia/habilidades ordenados embaixo um outro*/
     display: inline;
     margin: 0 1rem;
 }
 
-nav ul li a {
-    color:#ffffff;
+a {
+    font-size: larger;
+    font-weight: bold;
+    color: #1badd1; /*menu*/
     text-decoration: none;
 }
 
@@ -60,9 +67,12 @@ form {
 
 
 .imagem{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 10%;
     background-image: url("./Fotinha.jpg");
     background-size: cover;
 }
+
+
+  

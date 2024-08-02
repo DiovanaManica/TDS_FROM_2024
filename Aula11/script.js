@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Função para atualizar a navegação com a seção ativa
     function updateActiveNav() {
         const sections = document.querySelectorAll('section');
-        const navLinks = document.querySelectorAll('nav ul li a');
+        const navLinks = document.querySelectorAll('a');
 
         let currentIndex = sections.length;
 
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Adiciona o evento de rolagem suave nos links de navegação
-    document.querySelectorAll('nav ul li a').forEach(anchor => {
+    document.querySelectorAll('a').forEach(anchor => {
         anchor.addEventListener('click', scrollToSection);
     });
 
@@ -38,3 +38,5 @@ document.addEventListener('DOMContentLoaded', function () {
     // Atualiza a navegação ativa ao carregar a página
     updateActiveNav();
 });
+
+
